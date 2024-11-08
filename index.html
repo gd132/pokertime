@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тренажер покерных ситуаций</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Тренажер покерных ситуаций</h1>
+  <div class="situation">
+    <h2>Текущая раздача</h2>
+    <div id="player-hand">
+      <div class="card">♠️2</div>
+      <div class="card">♦️7</div>
+    </div>
+    <p>Ваши карты: 2♠️ и 7♦️</p>
+    <p>Чек или ставка? Выберите действие.</p>
+  </div>
+
+  <div>
+    <button class="btn" id="check-btn">Чек</button>
+    <button class="btn" id="bet-btn">Ставка</button>
+    <button class="btn" id="fold-btn">Фолд</button>
+  </div>
+
+  <div id="feedback" class="feedback"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
